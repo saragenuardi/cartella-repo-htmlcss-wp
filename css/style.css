@@ -1,5 +1,5 @@
 
-/* RESET */
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@
     background-color: #ABCFE7;
 } */
 
-.debug .content {
+/* .debug .content {
     background-color: #0186FE ;
-}
+} 
 
 /* COMMON */
 
@@ -101,15 +101,14 @@ img {
     background-color: rgba(0, 0, 0, 0.3 );
 }
 
-
-/* .layover {
+   .layover {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3 );
-} */
+}   
 
 .banner-text {
     position: absolute;
@@ -136,14 +135,37 @@ img {
     font-size: 20px;
 }
 
-/* colonn */
+/* colomn */
 
 .colonn {
+    width: 25%;
+    height: 400px;
+    background-size: auto;
+    background-position: center;
+    float: left;
+    position: relative;
+}
+
+.colonn .layover {
     height: 200px;
 }
 
-.col-side {
-    width: 25%;
+.colonn img {
+    border-radius: 20px;
+    height: 200px;
+    width: 25px;
+}
+
+
+.col-side img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.col-center img {
+    width: 100%;
+    object-fit: cover;
+    
 }
 
 .col-center {
@@ -151,8 +173,9 @@ img {
     margin: 0 2%;
 }
 
+
 /* FOOTER */
 footer {
     height: 50px;
     background-color: #8801FE;
-} 
+}  
